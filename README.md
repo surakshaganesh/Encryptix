@@ -1,1 +1,1 @@
-# Encryptix
+Landing page
