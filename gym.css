@@ -1,0 +1,120 @@
+body {
+    flex-wrap: wrap;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.left div {
+    color: white;
+    text-align: center;
+    text-decoration: solid;
+    letter-spacing: 2px;
+
+}
+
+.left img {
+    width: 130px;
+}
+
+.mid {
+    width: auto;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    position: inherit;
+    letter-spacing: 1px;
+
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    padding: 34px 24px;
+    transition: 0.4s linear;
+    border-radius: 10px;
+}
+
+.navbar li a:hover {
+    background-color: rgb(44, 43, 43);
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+
+.btn {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.4s linear;
+    letter-spacing: 2px;
+    text-decoration: solid;
+}
+
+.btn:hover {
+    background-color: rgb(44, 43, 43);
+}
+
+.beaker {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url('img/gym3.jpg');
+    background-size: contain;
+    height: 100vh;
+}
+
+.text {
+    color: white;
+    max-width: 650px;
+    top: 50%;
+    position: absolute;
+    left: 35%;
+    text-align: center;
+}
+
+.text span {
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.final {
+    border: 2px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 18px;
+
+}
+
+.TC li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.4s linear;
+    border-radius: 10px;
+}
+
+.media i{
+    cursor: pointer;
+    justify-content: space-around;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.name {
+    padding: -1%;
+}
